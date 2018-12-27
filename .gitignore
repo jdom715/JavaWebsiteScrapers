@@ -1,0 +1,9 @@
+# EMACS
+*~
+
+# INTELLIJ
+.idea*
+*.iml
+
+# MAVEN
+*/target
