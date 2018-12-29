@@ -31,7 +31,7 @@ public class ProductRequest {
     return productUrl;
   }
 
-  public void setProductUrl(String productUrl) {
+  public void setProductUrl(final String productUrl) {
     this.productUrl = productUrl;
   }
 
@@ -39,7 +39,7 @@ public class ProductRequest {
     return productStyle;
   }
 
-  public void setProductStyle(String productStyle) {
+  public void setProductStyle(final String productStyle) {
     this.productStyle = productStyle;
   }
 
@@ -55,7 +55,7 @@ public class ProductRequest {
     return productDescription;
   }
 
-  public void setProductDescription(String productDescription) {
+  public void setProductDescription(final String productDescription) {
     this.productDescription = productDescription;
   }
 
